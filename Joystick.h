@@ -120,5 +120,8 @@ void EVENT_USB_Device_ControlRequest(void);
 // Prepare the next report for the host.
 void GetNextReport(USB_JoystickReport_Input_t* const ReportData);
 
+typedef void (*InputFunction)(USB_JoystickReport_Input_t* const ReportData);
+void Joystick(InputFunction inf);
+
 #endif
 
