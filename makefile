@@ -23,7 +23,7 @@ CC_FLAGS     = -DUSE_LUFA_CONFIG_HEADER -IConfig/
 LD_FLAGS     =
 
 # Default target
-all:
+lib:
 
 # Include LUFA build script makefiles
 include $(LUFA_PATH)/Build/lufa_core.mk
