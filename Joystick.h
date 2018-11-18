@@ -37,6 +37,7 @@
 #define _JOYSTICK_H_
 
 /* Includes: */
+#ifdef INCL_ALL
 #include <avr/io.h>
 #include <avr/wdt.h>
 #include <avr/power.h>
@@ -51,6 +52,9 @@
 #include <LUFA/Platform/Platform.h>
 
 #include "Descriptors.h"
+#else
+#include <stdint.h>
+#endif
 
 // Type Defines
 // Enumeration for joystick buttons.

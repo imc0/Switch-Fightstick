@@ -24,6 +24,7 @@ these buttons for our use.
  *  is responsible for the initial application hardware configuration.
  */
 
+#define INCL_ALL
 #include "Joystick.h"
 
 /*
