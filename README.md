@@ -22,7 +22,7 @@ directory mentioned above.  Check the other settings as well.
 
 Hopefully you can now type `make` and end up with a file called libJoystick.a.
 
-## Compiling the example applet
+### Compiling the example applet
 
 The `example.c` file documents how the library is used.  You can compile it
 within the Switch-Fightstick project by just typing `make -f example.mk`.  This
